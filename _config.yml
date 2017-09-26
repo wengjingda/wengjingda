@@ -44,11 +44,11 @@ gems: [jekyll-paginate]
 markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
-
+  
 
 
 # Disqus settings
-disqus_username: hux
+# disqus_username: hux
 
 # Netease setttings
 netease_comment: false
