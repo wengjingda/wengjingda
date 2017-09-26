@@ -1,12 +1,12 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
+title: Wengjingda Blog
+SEOTitle: 哒哒哒达的个人博客 | Wengjingda Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
-url: "https://huangxuan.me"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+email: wengjingda@126.com
+description: "国家一级退堂鼓鼓手哒哒哒达的博客"
+keyword: "哒哒哒达, 翁靖达, wengjingda, NLP, 自然语言处理, 数据挖掘, 数据分析, python, 互联网, 电商, 设计"
+url: "https://wengjingda.github.io/"              # your host, for absolute URL
+baseurl: ""                                       # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
