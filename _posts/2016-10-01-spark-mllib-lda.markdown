@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "spark-mllib-lda 实践与说明"
+title:      "分类算法以及分类流程简述"
 subtitle:   ""
 date:       2016-10-01 
 author:     "wengjingda"
@@ -134,7 +134,7 @@ public class JavaLDAExample {
 ---
 **LDA模型说明：**
 
- 1、spark中**DistributedLDAMode**继承自**LDAModel**，其中**LDAModel**主要用来初始化LDA模型，而**DistributedLDAModel**中提供运算的结果
+spark中**DistributedLDAMode**继承自**LDAModel**，其中**LDAModel**主要用来初始化LDA模型，而**DistributedLDAModel**中提供运算的结果
 
 **DistributedLDAMode比较重要的函数有：**
 
