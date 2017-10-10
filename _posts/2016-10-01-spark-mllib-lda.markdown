@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "分类算法以及分类流程简述"
+title:      "spark-mllib-lda 实践与说明"
 subtitle:   ""
 date:       2016-10-01 
 author:     "wengjingda"
@@ -9,7 +9,7 @@ catalog: true
 tags:
     - 数据挖掘
     - spark
-	- lda
+    - lda
 ---
 
 
