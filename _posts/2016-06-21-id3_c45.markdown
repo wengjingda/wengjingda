@@ -7,7 +7,6 @@ author:     "wengjingda"
 header-img: "img/post-bg-rwd.jpg"
 catalog: true
 tags:
-    - 数据挖掘
     - 分类算法
 	- 决策树
 ---
