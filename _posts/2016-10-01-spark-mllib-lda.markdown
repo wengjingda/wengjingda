@@ -1,15 +1,14 @@
 ---
 layout:     post
-title:      "spark实践与说明"
+title:      "spark实践与说明系列-1"
 subtitle:   "mllib-lda"
 date:       2016-10-01 
 author:     "wengjingda"
 header-img: "img/post-bg-rwd.jpg"
 catalog: true
 tags:
-    - 数据挖掘
-    - spark
-    - lda
+    - SPARK
+    - LDA
 ---
 
 
