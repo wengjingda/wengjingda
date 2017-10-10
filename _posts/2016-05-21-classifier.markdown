@@ -2,7 +2,7 @@
 layout:     post
 title:      "分类算法以及分类流程简述"
 subtitle:   ""
-date:       2017-04-14 
+date:       2016-05-21 
 author:     "wengjingda"
 header-img: "img/post-bg-rwd.jpg"
 catalog: true
@@ -153,4 +153,8 @@ tags:
 　　kNN 算法的思路非常简单直观：如果一个样本在特征空间中的 k 个最相似 ( 即特征空间中最邻近 ) 的样本中的大多数属于某一个类别，则该样本也属于这个类别。
 
 
+四、参考文档
+-------
+
+[转自自己的csdn博客](http://blog.csdn.net/csdn595075652/article/details/51470415) 
 
