@@ -26,19 +26,19 @@ MLllib目前分为两个代码包：
 spark开发者推荐使用spark.ml，因为基于DataFrames的API更加的通用而且灵活。不过他们也会继续支持spark.mllib包。 用户可以放心使用，spark.mllib还会持续地增加新的功能。不过需要注意，如果新的算法能够适用于机器学习管道的概念，就应该将其放到 spark.ml包中，如：特征提取器和转换器。
 
 [聚类](http://spark.apache.org/docs/1.6.2/mllib-clustering.html)（clustering）方法包括：
-1、KMEANS聚类（K-means）
-2、二分KMEANS聚类（Bisecting k-means）
-3、隐含狄利克雷分布（Latent Dirichlet allocation (LDA)）
-4、混合高斯分布聚类（Gaussian Mixture Model (GMM)）
-5、幂迭代聚类 (PIC)
-6、流式KMEANS聚类（Streaming k-means）
+ - KMEANS聚类（K-means）
+ - 二分KMEANS聚类（Bisecting k-means）
+ - 隐含狄利克雷分布（Latent Dirichlet allocation (LDA)）
+ - 混合高斯分布聚类（Gaussian Mixture Model (GMM)）
+ - 幂迭代聚类 (PIC)
+ - 流式KMEANS聚类（Streaming k-means）
 
 接下来以利用java api实现spark中的lda算法作为引入，而其他聚类算法的实现过程可参照官方文档
 
-**实验中平台及语言版本为：**
-**spark->1.6.2**
-**jdk->1.8**
-**hadoop->2.6**
+**实验中平台及语言版本为：**  
+**spark->1.6.2**  
+**jdk->1.8**  
+**hadoop->2.6**  
 
 -------------------
 
@@ -141,24 +141,24 @@ public class JavaLDAExample {
 1、**topTopicsPerDocument(int k):**
 对于每一个输入的文档，按权重排序，返回前k个主题。
 
-Parameters:
+Parameters:  
 　　k - (undocumented)
-Returns:
+Returns:  
 　　RDD of (doc ID, topic indices, topic weights)
 
 ---
 2、**topicDistributions():**
 得到文档下的主题分布。
 
-Returns:
+Returns:  
 　　RDD of (document ID, topic distribution) pairs
 
 ---
 3、 	**topicsMatrix():**
 得到主题下的词条分布。
 
-Returns:
-　　Matrix:
+Returns:  
+　　Matrix:  
 　　　　Matrix(word_id, topic_id)表示特定主题下特定单词的权重
 
 可用 weight = Matrix.apply(word_id, topic_id) 获得
@@ -167,9 +167,9 @@ Returns:
  4、**describeTopics( int k):**
  按权重排序，返回各个主题下前k个词
  
- Parameters:
+Parameters:  
  　　maxTermsPerTopic - 需要返回前几个词
-Returns:
+Returns:  
 　　Array over topics. Each topic is represented as a pair of matching arrays: (term indices, term weights in topic). Each topic's terms are sorted in order of decreasing weight.
 
 ---
@@ -200,12 +200,12 @@ new SparkConf().setMaster("local");
 三、参考文档
 -------
 
-[转自自己的csdn博客](http://blog.csdn.net/csdn595075652/article/details/52718467) 
-[spark配置整理资料](http://blog.csdn.net/baiyangfu_love/article/details/40537087) 
-[spark配置指南](http://www.open-open.com/lib/view/open1418265814995.html) 
-[spark配置官方资料（1.6.2版本）](http://spark.apache.org/docs/1.6.2/configuration.html)
-[spark-mllib数据类型](http://www.itnose.net/detail/6431042.html) 
-[spark-mllib-lda源码解析](http://blog.csdn.net/sunbow0/article/details/47662603)
-[spark-mllib-ldamodel类文档](http://spark.apache.org/docs/1.6.2/api/java/org/apache/spark/mllib/clustering/LDA.html)
-[spark-mllib-DistributedLDAModel类文档](http://spark.apache.org/docs/1.6.2/api/java/org/apache/spark/mllib/clustering/DistributedLDAModel.html#topicsMatrix%28%29)
+[转自自己的csdn博客](http://blog.csdn.net/csdn595075652/article/details/52718467)   
+[spark配置整理资料](http://blog.csdn.net/baiyangfu_love/article/details/40537087)  
+[spark配置指南](http://www.open-open.com/lib/view/open1418265814995.html)  
+[spark配置官方资料（1.6.2版本）](http://spark.apache.org/docs/1.6.2/configuration.html)  
+[spark-mllib数据类型](http://www.itnose.net/detail/6431042.html)  
+[spark-mllib-lda源码解析](http://blog.csdn.net/sunbow0/article/details/47662603)  
+[spark-mllib-ldamodel类文档](http://spark.apache.org/docs/1.6.2/api/java/org/apache/spark/mllib/clustering/LDA.html)  
+[spark-mllib-DistributedLDAModel类文档](http://spark.apache.org/docs/1.6.2/api/java/org/apache/spark/mllib/clustering/DistributedLDAModel.html#topicsMatrix%28%29)  
 
