@@ -24,8 +24,9 @@ tags:
 
  - 预测任务，根据其他属性的值，预测特定属性的值。
  - 描述任务，概括数据中潜在联系的模式（相关性，趋势，聚类，轨迹和异常）
+ 
+![这里写图片描述](/img/introduction-for-the-classification-process/1.jpg)<p>
 
-![这里写图片描述](../img/introduction_to_the_classification_process/1.jpg)<p>
 　　分类属于预测任务，就是通过已有数据集（训练集）的学习，得到一个目标函数f（模型），把每个属性集x映射到目标属性y（类），且y必须是离散的（若y为连续的，则属于回归算法）。
 
 二、**分类的基本流程**
@@ -54,27 +55,27 @@ tags:
  - 减少特征数量、降维，使模型泛化能力更强，减少过拟合
  - 增强对特征和特征值之间的理解
 
-![这里写图片描述](../img/introduction_to_the_classification_process/2.jpg)<p>
+![这里写图片描述](/img/introduction-for-the-classification-process/2.jpg)<p>
 
 （2）数据类型
 
 　　数据集可以看成数据对象的集合，数据对象的其他名字是**记录**、**点**、**向量**、**模式**、**事件**、**样本**、**实体**，属性的其他名字为**变量**、**特性**、**字段**、**特征**、**维**，属性的数量称为**维度**
 
-![这里写图片描述](../img/introduction_to_the_classification_process/3.jpg)<p>
+![这里写图片描述](/img/introduction-for-the-classification-process/3.jpg)<p>
 　　表中的学生id，年级，平均成绩均为属性，每列的所有内容称为一个记录或一个样本。
 　　
 （３）属性类型与属性转换
 
 　　首先确定你所选取的特征是什么类型，再通过属性转换为计算机可以理解的格式。如人名属于标称属性，但有时候人名可能会重复，可以将其转换为不重复的id。
 　　
-![（图片来自《数据挖掘导论》中文版p17）](../img/introduction_to_the_classification_process/4.jpg)<p>
-　　　　　　　　　　
+![这里写图片描述](/img/introduction-for-the-classification-process/4.jpg)<p>
+　　　　　　　　　　（图片来自《数据挖掘导论》中文版p17）
 
 　　其次可以根据值的个数，将属性区分为**离散属性**或者**连续属性**，如果离散属性中每个值的价值相同如，“皮肤颜色”这个属性中，“黑”，“白”，“黄”三个值的价值相同，但“是否为黑人”这个属性中，“是”，“否”，可能“是”在实际应用中价值更大，前者称为“对称属性”，后者称为“非对称属性”。
 　　
 （4）模型建立
 
-　　通过以上几步就可以将生活中的数据转为计算机可以理解的格式如：![这里写图片描述](../img/introduction_to_the_classification_process/5.jpg)<p>
+　　通过以上几步就可以将生活中的数据转为计算机可以理解的格式如：![这里写图片描述](/img/introduction-for-the-classification-process/5.jpg)<p>
 　　
 　　对于模型的描述
 
