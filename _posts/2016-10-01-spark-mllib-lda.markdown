@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "spark-mllib-lda 实践与说明"
-subtitle:   ""
+title:      "spark实践与说明"
+subtitle:   "mllib-lda"
 date:       2016-10-01 
 author:     "wengjingda"
 header-img: "img/post-bg-rwd.jpg"
