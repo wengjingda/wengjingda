@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "xgboost算法介绍系列-1"
-subtitle:   "分类算法以及分类流程简述"
+title:      "xgboost算法介绍系列-2"
+subtitle:   "分类决策树id3与c4.5介绍"
 date:       2016-05-21 
 author:     "wengjingda"
 header-img: "img/post-bg-rwd.jpg"
