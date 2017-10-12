@@ -805,5 +805,5 @@ public class Id3 {
        C4.5(R-{D},C,S1),C4.5(R-{D},C,S2)...C4.5(R-{D},C,Sm);  
 
 三、参考网站  
-["分类算法-----决策树"](http://blog.163.com/zhoulili1987619@126/blog/static/353082012013113083417956/)
 
+[转自自己的csdn博客](http://blog.csdn.net/csdn595075652/article/details/48790903) 
