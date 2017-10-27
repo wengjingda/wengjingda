@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "xgboost算法介绍系列-2"
+title:      "决策树算法介绍系列-2"
 subtitle:   "分类决策树id3与c4.5介绍"
 date:       2016-05-21 
 author:     "wengjingda"

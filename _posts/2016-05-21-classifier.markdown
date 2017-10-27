@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "xgboost算法介绍系列-1"
+title:      "决策树算法介绍系列-1"
 subtitle:   "分类算法以及分类流程简述"
 date:       2016-05-21 
 author:     "wengjingda"

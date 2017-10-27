@@ -1,0 +1,20 @@
+---
+layout:     post
+title:      "决策树算法介绍系列-1"
+subtitle:   "分类算法以及分类流程简述"
+date:       2016-05-21 
+author:     "wengjingda"
+header-img: "img/post-bg-rwd.jpg"
+catalog: true
+tags:
+    - 数据挖掘
+    - 分类算法
+---
+
+分类算法简述
+======
+
+
+质能方程$E = mc^2$
+
+
